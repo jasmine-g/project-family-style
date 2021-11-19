@@ -1,18 +1,27 @@
 # project-family-style
 assignment 1 
 Overview of project: This website is essentially built for this game called Family Style. Family Style is a 2-8 player cross-platform cooperative cooking game. 
-External users' goal: The site’s users are people that are interested to download the game, know more about it and how to play it. It is also for them to decide if they want to download the game. 
+External users' goal: The site’s users are people that are interested to download the game, get it's merch,know more about it and how to play it. It is also for them to decide if they want to download the game. 
 Site owners' goal: The creators of the game want to promote their game and have more people playing it. They also want people to buy their merch and help new players learn how to play the game. 
+
 
 Design Process
 -------------------
 (About page)
--as creators of the game, we want to promote our game, so that more people can download it. 
+As a site owner, I want to promote my game so that more people will download it. As External users, I visit the website to decide if i want to download this game.
+For my About page of the website i decided to share the features of this website so that it may pique the interest of external users. I also decided to put pictures of game play screenshots that relate to each feature so that they would not be bored of just reading text. I also made my text short and concise to better engage external users. Adding on, the images can give the external users' a sneak peak of the game helping them decide whether or not to download the game.
+Furthermore, I chose to put brighter colors to fit the theme of the game.
 
-With this user story in mind, for my about page of the website i decided to share the features of this website that it may pique the interest of external users. I also decided to put pictures of game play screenshots that relate to each feature so that they would not be bored of just reading text and make my text short and concise to better engaging external users.The images can give the external user's a sneak peak of the game helping them decide whether or not to download the game.
-Furthermore, chose to put brighter colors to fit the theme of the game.
+(How to play page)
+As an external user, I want to visit this website to learn how to play Family Style.
+As a site owner, I want to help new players learn how to play the game so that I will have groups of regular players.
+To better help different types of learners, I decided to use different media like video, text and images for the how to play portion. Also, I decided that putting the content into different boxes makes it clearer and easier for the user to read and understand. 
 
-(tbc)
+(Download/merch page)
+As an external user, I want to visit this website to download the game / buy their merch.
+As a site owner, I want more people to download the game/ buy their so that the game can be succesful and I would profit more off it.
+I created a seperate page for this to help external users easier naviagte the website. This allows them just to go to the download/merch page if downloading the game/buying merch was their main purpose for visiting the website, saving them time. It also helps decrease the likeliness that the external users clicks out of the website quickly as they cannot find what they want. 
+
 wireframes : https://xd.adobe.com/view/cf2b2db9-cfb9-4b88-a852-44a74209f402-9a78/ 
 
 
