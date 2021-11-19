@@ -3,7 +3,8 @@
 .logo{display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;}
+  width: 40%;
+padding-bottom:5%;}
 
 div{background-color: #FFFA9D;
     }
@@ -11,7 +12,9 @@ div{background-color: #FFFA9D;
 /*style nav*/
 .container1{ display:flex;
   justify-content:space-around;
-  background-color: #FFFA9D;
+  background-color:lightgrey;
+  padding-top:2%;
+  padding-bottom:2%;
   }
   /* style links*/
   a {
@@ -21,7 +24,7 @@ div{background-color: #FFFA9D;
   font-family: 'Sniglet', Arial;
   font-size:35px;}
   a:visited{color:#000D6B;}
-  a:hover{color:darkgrey;
+  a:hover{color:white;
    }
   
  /*to adjust 'howtoplay' more to the centre*/
@@ -54,11 +57,12 @@ position:relative;}
   .intro{
     position:relative;
     margin:0;
-    padding-top:5%;
+    padding-top:3%;
     color: black;
     font-size:40px;
     text-align: center;
     font-family: 'Cabin',Arial, Helvetica;
+    background-color: #FFCCD2;
      }
   .wegotu{padding-top:5%;
   padding-bottom:10%;
@@ -120,11 +124,13 @@ font-size:25px;
 .contact{
 background-color: #998CEB;
 flex-basis:45%;
-padding-left:4%;}
+padding-left:4%;
+}
 
 
 .form{
-padding-left:4%;}
+padding-left:4%;
+}
 
 button{
 font-family: 'Cabin',Arial, Helvetica;
