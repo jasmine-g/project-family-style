@@ -36,6 +36,10 @@ feature 2 -external users can send in their emails
 This feature allows external users that want to be updated about any games update be updated. This also helps the site owner further promote their game as external users would get personal notifications, making them more likely to play and check out the new updates.
 
 feature3 - external users can email the site owners if they have any queries or any problems
+this can help to grow more regular players as if they have any problems or questions, they can get the problems fixed/questions cleared and continue playing.
+
+feature4 - the nav bar is position:sticky; 
+this allows the user the to go to other pages without scrolling all the way up improving user's experience.
 
 Features yet to be/may be implemented
 -for rules on how to play, make it slide sideways instead.
