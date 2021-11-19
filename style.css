@@ -28,6 +28,7 @@ div{background-color: #FFFA9D;
  .page2{margin-left:11%;
 position:relative;}
 
+/*positioning images*/
 .page1{position: relative;
 }
 .page3{position: relative;}
@@ -45,7 +46,11 @@ position:relative;}
    left:75%;
    transform:rotate(20deg);
    position:absolute;
+   margin-top:0;
+   
   }
+
+  /* styling introduction*/
   .intro{
     position:relative;
     margin:0;
@@ -57,13 +62,10 @@ position:relative;}
      }
   .wegotu{padding-top:5%;
   padding-bottom:10%;
-font-size:40px;
-margin-bottom:0;}
+font-size:60px;
+margin-bottom:0;
+font-family: 'Anton';}
   
-  /*styling intro of about page*/
-
-
-
 .confetti1{display:block;
 width:15%;
 top:50%;
@@ -85,6 +87,7 @@ position:absolute;
   margin-right:auto;
 }
 
+/*styling main content of the about page*/
 .about{background-color:#B1E693;
 
 }
@@ -103,6 +106,26 @@ display:flex;
 justify-content: center;
 background-color: #B1E693;
 padding-top:2%;
+padding-bottom:5%;
 }
 
 /*footer*/
+.footer{display:flex;
+background-color:#753188;
+font-family: 'Cabin',Arial, Helvetica;
+color:whitesmoke;
+font-size:25px;
+}
+
+.contact{
+background-color: #998CEB;
+flex-basis:45%;
+padding-left:4%;}
+
+
+.form{
+padding-left:4%;}
+
+button{
+font-family: 'Cabin',Arial, Helvetica;
+}
