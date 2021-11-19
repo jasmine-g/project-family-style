@@ -12,9 +12,11 @@ div{background-color: #FFFA9D;
 /*style nav*/
 .container1{ display:flex;
   justify-content:space-around;
-  background-color:lightgrey;
-  padding-top:2%;
-  padding-bottom:2%;
+  background-color:#FEE440;
+  
+  padding-top:1%;
+  padding-bottom:1%;
+  
   }
   /* style links*/
   a {

@@ -32,6 +32,7 @@ Features yet to be/may be implemented
 -for rules on how to play, make it slide sideways instead.
 -give some preview of merch on downoad/merch page
 -video for how to play
+-media queries 
 
 Technologies Used
 ------------------
