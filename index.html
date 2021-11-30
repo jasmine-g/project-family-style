@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel='stylesheet' href="style.css" type="text/css">
+    <link rel="stylesheet" href="normalise.css">
     <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
@@ -9,7 +10,7 @@
 
 <body>
     <div>
-        <img src ='FamilyStyleNewLogo.png' class='logo' alt = 'logo'>
+        <img src ='imagesvideos/FamilyStyleNewLogo.png' class='logo' alt = 'logo'>
     </div>
     <nav class='container1'> 
       
@@ -17,32 +18,32 @@
 
       <h3 class='page2'><a href ='#howtopage'>How to play</a></h3>
 
-      <h3 class='page3'><a href ='download.html'>Download/Merch</a></h3>
+      <h3 class='page3'><a href ='#download'>Download/Merch</a></h3>
     </nav>
 
     <div>
-        <img src ='egg.png' class='egg' alt = 'egg'>
-        <img src ='onion.png' class='onion' alt = 'onion'>
+        <img src ='imagesvideos/egg.png' class='egg' alt = 'egg'>
+        <img src ='imagesvideos/onion.png' class='onion' alt = 'onion'>
     </div>
 
     <div id = 'aboutpage'>
       <div class='intro'>
         <p > LOOKING FOR A FUN GAME TO PLAY TO PLAY WITH YOUR FRIENDS?</p>
         <p class='wegotu'>WE GOT YOU!</p>
-        <img src ='confetti.png' class='confetti1' alt = 'confetti'>
-       <img src ='confetti.png' class='confetti2' alt = 'confetti'>
+        <img src ='imagesvideos/confetti.png' class='confetti1' alt = 'confetti'>
+       <img src ='imagesvideos/confetti.png' class='confetti2' alt = 'confetti'>
      </div>
 
 
       <div class='about'>
         <p class='sentence'>With up to 8 players, you and your friends can become chefs in this hectic kitchen!</p>
-        <img src ='screen1.png' class='screen' alt = 'gameplay screenshot'>
+        <img src ='imagesvideos/screen1.png' class='screen' alt = 'gameplay screenshot'>
         <p class='sentence'>Not only can you enjoy this game with your friends, <br>this game also has a unique gameplay making your gameplay experience MORE exciting!</p>
-        <img src ='screen2.jpg' class='screen' alt = 'gameplay screenshot'>
+        <img src ='imagesvideos/screen2.jpg' class='screen' alt = 'gameplay screenshot'>
         <p class='sentence'>Last but not least, this game has many levels for you to clear. <br> Guaranteed to make you come back for more and not get bored! </p>
-        <img src ='screen3.jpg' class='screen' alt = 'gameplay screenshot'>
+        <img src ='imagesvideos/screen3.jpg' class='screen' alt = 'gameplay screenshot'>
         <div class='button'>
-          <p><a href ='download.html'>get me started!</a></p>
+          <p><a href ='#download'>get me started!</a></p>
         </div>
       </div>
     </div>
@@ -50,16 +51,51 @@
     <div id = 'howtopage'>
       <p class= 'how2play-title'>How To play</p>
       <div class=oval></div>
-      <ul class=steps>
-        <li>After creating or joining a room,<br> the Headchef (person who created the room) <br> positions the players,this will be important later in the game. </li>
-        <li>At the top of the screen, it shows you the dish you need to serve.<br> Following the given dish, place the ingredients on the plate and swipe up to serve! </li>
-        <li>If you do not have a certain ingredient, one your friends probably has it!<br>To pass an ingredient, simply slide the ingredient to your left or right.<br> The player who recieves it depends on who the headchef positioned on your left and right.</li>
-        <li>Every round is a race against time! <br>Sadly, if a certain amount of dishes is not completed in the set time frame,<br> your group of friends will not make it to the next round. <br>New ingredients, kitchen tools and dishes will be introduced as you pass the rounds! </li>
-      </ul>
-      <img src='ingred3.png' class='carrot' alt= 'half a carrot'>
+      <section class=steps>
+        <div class=flex-item>
+          <p>After creating or joining a room,<br> the headchef (person who created the room) <br> positions the players,this will be important later in the game. </p>
+          <img src='imagesvideos/screen4.jpeg' alt='screenshot' class='screen4'>
+        </div>
+        
+        <div class='flex-item'>
+          <p>At the top of the screen, it shows you the ingredient you need to put on the plate.<br> Once the dish is ready, swipe up to serve! </p>
+          <video width="450" height="260" controls>
+            <source src="imagesvideos/video1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class='flex-item'>
+          <p>If you do not have a certain ingredient, one your friends probably has it!<br>To pass an ingredient, simply slide the ingredient to your left or right.<br> The player who recieves it depends on who the headchef positioned on your left and right.</p>
+          <video width="450" height="260" controls>
+            <source src="imagesvideos/video2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class = 'flex-item'>
+          <p>Every round is a race against time! <br>Sadly, if a certain amount of dishes is not completed in the set time frame,<br> your group of friends will not make it to the next round. <br>New ingredients, kitchen tools and dishes will be introduced as you pass the rounds! </p>
+         
+          <img src = 'imagesvideos/screen5.jpeg' alt='screenshot' class='screen5'>
+        </div>
+      </section>
+    
     </div>
 
-
+    <div id= 'download'>
+      <div class='downloadd'>
+        <p class='download-item'>download now!!</p>
+        <img src='imagesvideos/appicon.png' alt = 'Family Style app icon'class ='download-item'>
+      </div>
+      <div class='downloadlinks'>
+        <a href='https://apps.apple.com/us/app/family-style-co-op-kitchen/id1484208629?ls=1'><img src='imagesvideos/applestore.jpg' alt='apple store download' class='apple' ></a>
+        <a href ='https://play.google.com/store/apps/details?id=com.chefparty.familystyle'><img src ='imagesvideos/googleplay-real.jpg' alt='google play download' class='google' ></a>
+      </div>
+      <p> OR </p>
+      <div class = 'merch'>
+        <p>check out our merch!</p>
+      </div>
+    </div>
     
     <footer class='footer'>
       <div class='contact'>

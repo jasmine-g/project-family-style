@@ -17,6 +17,7 @@ div{background-color: #FFFA9D;
   position: sticky;
   top:0;
   padding-bottom:1%;
+  z-index:1;
   
   }
   /* style links*/
@@ -69,7 +70,7 @@ position:relative;}
     
      }
 
-  .wegotu{padding-top:5%;
+.wegotu{padding-top:5%;
   padding-bottom:10%;
 font-size:60px;
 margin-bottom:0;
@@ -97,7 +98,7 @@ position:absolute;
   }
 
 /*styling main content of the about page*/
-.about{background-color:#B1E693;
+.about{background-color:#93D9A3;
   margin: 0;
 
 }
@@ -109,12 +110,13 @@ padding-top:10%;
 padding-bottom:10%;
 font-family: 'Cabin',Arial, Helvetica;
 
+
 }
 
 .button{
 display:flex;
 justify-content: center;
-background-color: #B1E693;
+background-color: #93D9A3;
 padding-top:2%;
 padding-bottom:5%;
 }
@@ -124,7 +126,7 @@ padding-bottom:5%;
 background-color:#753188;
 font-family: 'Cabin',Arial, Helvetica;
 color:whitesmoke;
-font-size:25px;
+font-size:20px;
 
 }
 
@@ -146,51 +148,128 @@ font-family: 'Cabin',Arial, Helvetica;
 /*styling how2play page */
 #howtopage{background-color: #FFCCD2;
   position:relative;
-padding-bottom:3%;}
+padding-bottom:3%;
+}
 
 .how2play-title{
-  padding:3%;
-  text-align: center;
+padding:3%;
+text-align: center;
 font-family: 'Sniglet',Arial, Helvetica;
 margin:0;
-font-size:35px;
+font-size:45px;
 color:#700B97;
 position:relative;
-z-index:1;
 }
 
 
-/*.oval{
-  display:block;
-  border-radius:40px;
-  width: 300px;
-  height: 80px;
-  left:40%;
-  position:absolute;
-background-color:#700B97;
-bottom:43px;
-}*/
 
+/* styling download/merch page*/
 
 .steps{display:flex;
 flex-direction: row;
 flex-wrap: nowrap;
 overflow-x: auto;
+
 }
 
 
-ul{margin:0;
-list-style-type:none;}
-
-li{flex-direction: row ;
+.flex-item{flex-direction: row ;
 background-color: darkorchid;
 margin-left:50px;
-padding:2%;
+padding-bottom:2%;
 font-family: 'Cabin',Arial, Helvetica, sans-serif;
-color: white;
+color: #FFCCD2;
 border-radius:10px;
 text-align: center;
-font-size:20px;
-padding-bottom:10%;
-flex: 0 0 auto;}
+font-size:25px;
+flex: 0 0 auto;
 
+}
+
+.flex-item p{
+  padding:2%;
+}
+
+
+.screen4{
+ margin:0;
+ width:50%;
+padding-top:2%;
+}
+
+.screen5{
+float:center;
+  width:50%;
+  left:50%;
+  padding-top:0;
+  margin-top:0;
+}
+
+#download{
+  position:relative;
+  background-color: #93D9A3;}
+
+.downloadd{
+  padding:2%;
+  display:flex;
+  flex-direction: row;
+background-color: #93D9A3;
+justify-content: center;
+margin-right:20px
+
+}
+
+.downloadd img{
+  width:20%;
+}
+
+.download-item{margin-left:50px;}
+
+.downloadd p{
+  font-size:50px;
+  font-family: 'Sniglet',Arial, Helvetica, sans-serif;
+  color:#1E5128;
+  animation:blinkingtext 1s infinite;
+}
+
+@keyframes blinkingtext{
+  0%{     color: #1E5128;    }
+  49%{    color: #1E5128; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #1E5128;    }
+}
+
+
+
+.downloadlinks{
+  
+  background-color: #93D9A3;
+  
+}
+
+.apple{
+  position:absolute;
+  display:inline-block;
+  left:24%;
+  width:15%;
+  top:55%;
+  box-shadow: 6px 6px rgb(128,128,128,0.5);
+}
+
+.google{
+  position:absolute;
+  width:15%;
+  left:41%;
+  top:55%;
+  box-shadow: 6px 6px rgb(128,128,128,0.5);
+}
+
+.downloadlinks img:hover{
+  opacity: 0.5;
+  
+}
+
+#download p{
+  text-align: center;
+}
