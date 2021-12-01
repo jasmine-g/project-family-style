@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <link rel='stylesheet' href="style.css" type="text/css">
     <link rel="stylesheet" href="normalise.css">
     <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@800&display=swap" rel="stylesheet">
@@ -18,7 +20,7 @@
 
       <h3 class='page2'><a href ='#howtopage'>How to play</a></h3>
 
-      <h3 class='page3'><a href ='#download'>Download/Merch</a></h3>
+      <h3 class='page3'><a href ='#downloadmerch'>Download/Merch</a></h3>
     </nav>
 
     <div>
@@ -30,8 +32,9 @@
       <div class='intro'>
         <p > LOOKING FOR A FUN GAME TO PLAY TO PLAY WITH YOUR FRIENDS?</p>
         <p class='wegotu'>WE GOT YOU!</p>
+      
         <img src ='imagesvideos/confetti.png' class='confetti1' alt = 'confetti'>
-       <img src ='imagesvideos/confetti.png' class='confetti2' alt = 'confetti'>
+        <img src ='imagesvideos/confetti.png' class='confetti2' alt = 'confetti'>
      </div>
 
 
@@ -43,14 +46,13 @@
         <p class='sentence'>Last but not least, this game has many levels for you to clear. <br> Guaranteed to make you come back for more and not get bored! </p>
         <img src ='imagesvideos/screen3.jpg' class='screen' alt = 'gameplay screenshot'>
         <div class='button'>
-          <p><a href ='#download'>get me started!</a></p>
+          <p><a href ='#downloadmerch'>get me started!</a></p>
         </div>
       </div>
     </div>
     
     <div id = 'howtopage'>
       <p class= 'how2play-title'>How To play</p>
-      <div class=oval></div>
       <section class=steps>
         <div class=flex-item>
           <p>After creating or joining a room,<br> the headchef (person who created the room) <br> positions the players,this will be important later in the game. </p>
@@ -67,22 +69,23 @@
 
         <div class='flex-item'>
           <p>If you do not have a certain ingredient, one your friends probably has it!<br>To pass an ingredient, simply slide the ingredient to your left or right.<br> The player who recieves it depends on who the headchef positioned on your left and right.</p>
-          <video width="450" height="260" controls>
+          <video width="450" height="260" controls class="video1">
             <source src="imagesvideos/video2.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video>
+          <img src='imagesvideos/ingred3.png' alt='half a carrot' class='carrot'>
         </div>
 
         <div class = 'flex-item'>
           <p>Every round is a race against time! <br>Sadly, if a certain amount of dishes is not completed in the set time frame,<br> your group of friends will not make it to the next round. <br>New ingredients, kitchen tools and dishes will be introduced as you pass the rounds! </p>
-         
+          <img src='imagesvideos/ingred3.1.png' alt='half a carrot' class='carrot1'>
           <img src = 'imagesvideos/screen5.jpeg' alt='screenshot' class='screen5'>
         </div>
       </section>
     
     </div>
 
-    <div id= 'download'>
+    <div id= 'downloadmerch'>
       <div class='downloadd'>
         <p class='download-item'>download now!!</p>
         <img src='imagesvideos/appicon.png' alt = 'Family Style app icon'class ='download-item'>
@@ -91,9 +94,14 @@
         <a href='https://apps.apple.com/us/app/family-style-co-op-kitchen/id1484208629?ls=1'><img src='imagesvideos/applestore.jpg' alt='apple store download' class='apple' ></a>
         <a href ='https://play.google.com/store/apps/details?id=com.chefparty.familystyle'><img src ='imagesvideos/googleplay-real.jpg' alt='google play download' class='google' ></a>
       </div>
-      <p> OR </p>
-      <div class = 'merch'>
-        <p>check out our merch!</p>
+      <div class='merch'>
+        <p class='merchs1'><a href=https://family-style-game.creator-spring.com/?>Check out our merch!</a></p>
+        <button id='merchs2' onclick="show()">Here's a little sneak peak if you are interested!</button>
+        <div id='sneakpeak'>
+          <img src= 'imagesvideos/socksnobg.png' alt='family syle socks'>
+          <img src = 'imagesvideos/hoodienobg.png' alt= 'family style hoodie'>
+          <img src = 'imagesvideos/t-shirtnobg.png'alt='family style t-shirt'>
+        </div>
       </div>
     </div>
     
@@ -110,7 +118,7 @@
       </form>
 
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 
 </html>

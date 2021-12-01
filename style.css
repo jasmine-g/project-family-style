@@ -11,6 +11,7 @@ div{background-color: #FFFA9D;
 
 /*style nav*/
 .container1{ display:flex;
+ 
   justify-content:space-around;
   background-color:#FEE440;
   position: -webkitsticky; 
@@ -20,17 +21,55 @@ div{background-color: #FFFA9D;
   z-index:1;
   
   }
-  /* style links*/
-  a {
+  
+  .page1 a {
     text-decoration: none;
   }
-  a:link{color:#000D6B;
+  .page1 a:link{
+  color:#000D6B;
   font-family: 'Sniglet', Arial;
   font-size:35px;}
-  a:visited{color:#000D6B;}
-  a:hover{color:white;
+
+  .page1 a:visited{
+    color:#000D6B;
+  }
+  .page1 a:hover{
+    color:white;
    }
   
+
+   .page2 a {
+    text-decoration: none;
+  }
+  .page2 a:link{
+  color:#000D6B;
+  font-family: 'Sniglet', Arial;
+  font-size:35px;}
+
+  .page2 a:visited{
+    color:#000D6B;
+  }
+  .page2 a:hover{
+    color:white;
+   }
+
+   
+   .page3 a {
+    text-decoration: none;
+  }
+  .page3 a:link{
+  color:#000D6B;
+  font-family: 'Sniglet', Arial;
+  font-size:35px;}
+
+  .page3 a:visited{
+    color:#000D6B;
+  }
+  .page3 a:hover{
+    color:white;
+   }
+
+
  /*to adjust 'howtoplay' more to the centre*/
  .page2{margin-left:11%;
 position:relative;}
@@ -75,12 +114,15 @@ position:relative;}
 font-size:60px;
 margin-bottom:0;
 font-family: 'Anton';}
+
+
   
 .confetti1{display:block;
 width:15%;
 top:50%;
 left:15%;
 position:absolute;
+
 }
 
 .confetti2{display:block;
@@ -88,16 +130,12 @@ position:absolute;
   top:50%;
   left:70%;
   transform:scaleX(-1);
-  position:absolute;}
+  position:absolute;
+}
 
-  .screen{display:block;
-  width: 50%;
-  margin-bottom:0;
-  margin-left: auto;
-  margin-right:auto;
-  }
+  
 
-/*styling main content of the about page*/
+/*styling about page*/
 .about{background-color:#93D9A3;
   margin: 0;
 
@@ -106,11 +144,18 @@ position:absolute;
 .sentence{text-align:center;
 margin:0;
 font-size:35px;
-padding-top:10%;
-padding-bottom:10%;
+padding-top:5%;
+padding-bottom:5%;
 font-family: 'Cabin',Arial, Helvetica;
 
 
+}
+
+.screen{display:block;
+  width: 50%;
+  margin-bottom:0;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .button{
@@ -121,29 +166,7 @@ padding-top:2%;
 padding-bottom:5%;
 }
 
-/*footer*/
-.footer{display:flex;
-background-color:#753188;
-font-family: 'Cabin',Arial, Helvetica;
-color:whitesmoke;
-font-size:20px;
 
-}
-
-.contact{
-background-color: #998CEB;
-flex-basis:45%;
-padding-left:4%;}
-
-
-
-.form{
-padding-left:4%;
-}
-
-button{
-font-family: 'Cabin',Arial, Helvetica;
-}
 
 /*styling how2play page */
 #howtopage{background-color: #FFCCD2;
@@ -162,13 +185,11 @@ position:relative;
 }
 
 
-
-/* styling download/merch page*/
-
 .steps{display:flex;
 flex-direction: row;
 flex-wrap: nowrap;
 overflow-x: auto;
+position:relative;
 
 }
 
@@ -198,24 +219,41 @@ padding-top:2%;
 }
 
 .screen5{
-float:center;
+
   width:50%;
   left:50%;
   padding-top:0;
   margin-top:0;
 }
 
-#download{
+
+.carrot{width:15%;
+  position:absolute;
+  padding-left:2%;
+}
+
+.carrot1{
+  width:9%;
+  position:absolute;
+  top:42%;
+ left:201.3%;
+
+}
+
+/*styling download/merch page*/
+#downloadmerch{
   position:relative;
   background-color: #93D9A3;}
 
+/* download portion*/
 .downloadd{
   padding:2%;
   display:flex;
   flex-direction: row;
-background-color: #93D9A3;
-justify-content: center;
-margin-right:20px
+  flex-wrap:wrap; 
+ background-color: #93D9A3;
+ justify-content: center;
+ margin-right:20px;
 
 }
 
@@ -253,7 +291,7 @@ margin-right:20px
   display:inline-block;
   left:24%;
   width:15%;
-  top:55%;
+  top:23%;
   box-shadow: 6px 6px rgb(128,128,128,0.5);
 }
 
@@ -261,7 +299,7 @@ margin-right:20px
   position:absolute;
   width:15%;
   left:41%;
-  top:55%;
+  top:23%;
   box-shadow: 6px 6px rgb(128,128,128,0.5);
 }
 
@@ -270,6 +308,205 @@ margin-right:20px
   
 }
 
-#download p{
-  text-align: center;
+/*stylying merch portion*/
+
+.merch{
+  padding-top:2%;
+  background-color: #99DDCC;
+}
+
+.merch p{
+  text-align: center;}
+
+
+#sneakpeak{
+  display:none;
+
+ flex-direction: row;
+ justify-content: center;
+ background-color: #99DDCC;
+}
+
+#sneakpeak img{ 
+  width: 15%;
+  padding-bottom:3%;
+  animation: shake 1s infinite;
+
+}
+
+@keyframes shake {
+  0%{transform: rotate(-20deg);}
+  50%{transform: rotate(20deg);}
+  100%{transform: rotate(-20deg);}
+}
+
+
+
+.merchs1 a{
+  font-size:50px;
+  color:#3D56B2;
+  font-family: 'Sniglet',Arial, Helvetica, sans-serif;
+}
+
+.merchs1 a:hover{
+ color:white;
+}
+
+#merchs2{
+  
+  font-family:'Cabin',Arial, Helvetica, sans-serif;
+  color:#99DDCC;
+  font-size:20px;
+  width: 400px;  
+  height: 70px;  
+  background-color:#3D56B2 ;
+  border-radius: 10px;
+  margin-left:37%;
+  margin-bottom: 5%;
+  
+}
+
+#merchs2:hover{
+  background-color:#99DDCC;
+  color:#3D56B2 ;
+}
+
+
+
+/*footer*/
+.footer{display:flex;
+  background-color:#FFFA9D;
+  font-family: 'Cabin',Arial, Helvetica;
+  color:black;
+  font-size:20px;
+  
+  }
+  
+  .contact{
+  background-color: #FEE440;
+  flex-basis:45%;
+  padding-left:4%;}
+  
+  
+  
+  .form{
+  padding-left:4%;
+  }
+  
+  button{
+  font-family: 'Cabin',Arial, Helvetica;
+  }
+
+
+  /* media queries*/
+
+@media (max-width:576px){
+  /* media query for nav link */
+  .page1 a:link{
+    font-size:15px;
+   
+  }
+
+  .page2 a:link{
+    font-size:15px;
+  }
+  .page2{
+    margin-left: 0%;
+  }
+
+  .page3 a:link{
+    font-size:15px;
+  }
+  
+  .egg{
+    top:3%;
+  }
+
+  .onion{
+    top:3%;
+  }
+  
+  .intro{
+    font-size:18px;
+    padding-left:2%;
+    padding-right:2%;
+  }
+
+  .wegotu{
+    font-size:25px
+  }
+
+  .confetti1{
+    top:65%;
+  }
+
+  .confetti2{
+    top:65%;
+  }
+
+  .sentence{
+    font-size:12px;
+    padding-left:2%;
+    padding-right: 2%;
+  }
+
+  .how2play-title{
+    font-size:25px;
+  }
+  .flex-item video{
+    width: 200px;
+    height:100px;
+  }
+  .flex-item{
+    font-size:10px;
+   margin-left:20px;
+   width:300px;
+   height:200px;
+  }
+
+  .screen4{
+    width:70%;
+  }
+
+  .downloadd p{
+    font-size:25px;
+  }
+  
+  .download-item{
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:3%;
+  
+  }
+  .apple{
+    top:18%;
+    left:50%;
+    box-shadow: 3px 3px rgb(128,128,128,0.5);
+      }
+  .google{
+    top:25%;
+    box-shadow: 3px 3px rgb(128,128,128,0.5);
+    left:50%;
+  }
+  .downloadd{
+    padding-bottom:8%;
+    margin-right:0%;
+    padding-left:0%;
+    padding-right:0%;
+    flex-direction: column;
+    align-content: center;
+  }
+  
+  #merchs2{
+    margin-left:20%;
+    font-size:10px;
+    width: 200px;  
+    height: 40px;  
+    border-radius: 10px
+  }
+  
+  
+  .form input{
+    width:70%;
+  }
 }
