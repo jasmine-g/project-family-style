@@ -6,12 +6,13 @@
   width: 40%;
 padding-bottom:5%;}
 
-div{background-color: #FFFA9D;
+div{
+  background-color: #FFFA9D;
     }
 
 /*style nav*/
-.container1{ display:flex;
- 
+.container1{ 
+  display:flex;
   justify-content:space-around;
   background-color:#FEE440;
   position: -webkitsticky; 
@@ -19,8 +20,7 @@ div{background-color: #FFFA9D;
   top:0;
   padding-bottom:1%;
   z-index:1;
-  
-  }
+ }
   
   .page1 a {
     text-decoration: none;
@@ -53,11 +53,11 @@ div{background-color: #FFFA9D;
   .page2 a:hover{
     color:white;
    }
-
-   
+  
    .page3 a {
     text-decoration: none;
   }
+
   .page3 a:link{
   color:#000D6B;
   font-family: 'Sniglet', Arial;
@@ -72,28 +72,36 @@ div{background-color: #FFFA9D;
 
 
  /*to adjust 'howtoplay' more to the centre*/
- .page2{margin-left:11%;
-position:relative;}
+ .page2{
+  margin-left:11%;
+  position:relative;
+}
 
 /*positioning images*/
-.page1{position: relative;
+.page1{
+  position: relative;
 }
-.page3{position: relative;}
+.page3{
+  position: relative;
+}
 
-  .egg{display: block;
-   width:15%;
-   top:5%;
-  left:10%;
-  transform:rotate(-20deg);
-  position:absolute;
-  ;}
-  .onion{display: block;
+  .egg{
+    display: block;
     width:15%;
     top:5%;
-   left:75%;
-   transform:rotate(20deg);
-   position:absolute;
-   margin-top:0;
+    left:10%;
+    transform:rotate(-20deg);
+    position:absolute;
+  }
+
+  .onion{
+    display: block;
+    width:15%;
+    top:5%;
+    left:75%;
+    transform:rotate(20deg);
+    position:absolute;
+     margin-top:0;
    
   }
 
@@ -112,23 +120,27 @@ position:relative;}
     
      }
 
-.wegotu{padding-top:5%;
+.wegotu{
+  padding-top:5%;
   padding-bottom:10%;
-font-size:60px;
-margin-bottom:0;
-font-family: 'Anton';}
+  font-size:60px;
+  margin-bottom:0;
+  font-family: 'Anton';
+}
 
 
   
-.confetti1{display:block;
-width:15%;
-top:50%;
-left:15%;
-position:absolute;
+.confetti1{
+  display:block;
+  width:15%;
+  top:50%;
+  left:15%;
+  position:absolute;
 
 }
 
-.confetti2{display:block;
+.confetti2{
+  display:block;
   width:15%;
   top:50%;
   left:70%;
@@ -139,22 +151,23 @@ position:absolute;
   
 
 /*styling about page*/
-.about{background-color:#93D9A3;
+.about{
+  background-color:#93D9A3;
   margin: 0;
   padding-bottom:5%;
 }
 
-.sentence{text-align:center;
-margin:0;
-font-size:35px;
-padding-top:5%;
-padding-bottom:5%;
-font-family: 'Cabin',Arial, Helvetica;
-
-
+.sentence{
+  text-align:center;
+  margin:0;
+  font-size:35px;
+  padding-top:5%;
+  padding-bottom:5%;
+  font-family: 'Cabin',Arial, Helvetica;
 }
 
-.screen{display:block;
+.screen{
+  display:block;
   width: 50%;
   margin-bottom:0;
   margin-left: auto;
@@ -166,41 +179,44 @@ font-family: 'Cabin',Arial, Helvetica;
 
 
 /*styling how2play page */
-#howtopage{background-color: #FFCCD2;
+#howtopage{
+  background-color: #FFCCD2;
   position:relative;
-padding-bottom:3%;
+  padding-bottom:3%;
 }
 
 .how2play-title{
-padding:3%;
-text-align: center;
-font-family: 'Sniglet',Arial, Helvetica;
-margin:0;
-font-size:45px;
-color:#700B97;
-position:relative;
+  padding:3%;
+  text-align: center;
+  font-family: 'Sniglet',Arial, Helvetica;
+  margin:0;
+  font-size:45px;
+  color:#700B97;
+  position:relative;
 }
 
 
-.steps{display:flex;
-flex-direction: row;
-flex-wrap: nowrap;
-overflow-x: auto;
-position:relative;
+.steps{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  position:relative;
 
 }
 
 
-.flex-item{flex-direction: row ;
-background-color: darkorchid;
-margin-left:50px;
-padding-bottom:2%;
-font-family: 'Cabin',Arial, Helvetica, sans-serif;
-color: #FFCCD2;
-border-radius:10px;
-text-align: center;
-font-size:25px;
-flex: 0 0 auto;
+.flex-item{
+  flex-direction: row ;
+  background-color: darkorchid;
+  margin-left:50px;
+  padding-bottom:2%;
+  font-family: 'Cabin',Arial, Helvetica, sans-serif;
+  color: #FFCCD2;
+  border-radius:10px;
+  text-align: center;
+  font-size:25px;
+  flex: 0 0 auto;
 
 }
 
@@ -224,7 +240,8 @@ padding-top:2%;
 }
 
 
-.carrot{width:15%;
+.carrot{
+  width:15%;
   position:absolute;
   padding-left:2%;
 }
@@ -269,19 +286,17 @@ padding-bottom: 10%;
 }
 
 @keyframes blinkingtext{
-  0%{     color: #1E5128;    }
+  0%{     color: #1E5128; }
   49%{    color: #1E5128; }
   60%{    color: transparent; }
-  99%{    color:transparent;  }
-  100%{   color: #1E5128;    }
+  99%{    color:transparent; }
+  100%{   color: #1E5128;  }
 }
 
 
 
 .downloadlinks{
-  
   background-color: #93D9A3;
-  
 }
 
 .apple{
@@ -321,10 +336,9 @@ padding-bottom: 10%;
 
 #sneakpeak{
   display:none;
-
- flex-direction: row;
- justify-content: center;
- background-color: #99DDCC;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #99DDCC;
 }
 
 #sneakpeak img{ 
@@ -363,7 +377,6 @@ padding-bottom: 10%;
   height: 70px;  
   background-color:#3D56B2 ;
   border-radius: 10px;
-  
   margin-bottom: 5%;
   align-self: center;
   
@@ -410,9 +423,7 @@ padding-bottom: 10%;
 
   /* media queries*/
 
-
-
-@media (max-width:992px){
+  @media (max-width:992px){
   .page1 a:link{
     font-size:25px;
    
