@@ -40,6 +40,7 @@ div{background-color: #FFFA9D;
 
    .page2 a {
     text-decoration: none;
+    align-self: center;
   }
   .page2 a:link{
   color:#000D6B;
@@ -106,6 +107,8 @@ position:relative;}
     text-align: center;
     font-family: 'Cabin',Arial, Helvetica;
     background-color: #FFCCD2;
+    padding-left:2%;
+    padding-right: 2%;
     
      }
 
@@ -138,7 +141,7 @@ position:absolute;
 /*styling about page*/
 .about{background-color:#93D9A3;
   margin: 0;
-
+  padding-bottom:5%;
 }
 
 .sentence{text-align:center;
@@ -156,15 +159,9 @@ font-family: 'Cabin',Arial, Helvetica;
   margin-bottom:0;
   margin-left: auto;
   margin-right:auto;
+  
 }
 
-.button{
-display:flex;
-justify-content: center;
-background-color: #93D9A3;
-padding-top:2%;
-padding-bottom:5%;
-}
 
 
 
@@ -254,11 +251,12 @@ padding-top:2%;
  background-color: #93D9A3;
  justify-content: center;
  margin-right:20px;
-
+padding-bottom: 10%;
 }
 
 .downloadd img{
   width:20%;
+  padding-left: 3%;
 }
 
 .download-item{margin-left:50px;}
@@ -289,17 +287,17 @@ padding-top:2%;
 .apple{
   position:absolute;
   display:inline-block;
-  left:24%;
+  left:22%;
   width:15%;
-  top:23%;
+  top:25%;
   box-shadow: 6px 6px rgb(128,128,128,0.5);
 }
 
 .google{
   position:absolute;
   width:15%;
-  left:41%;
-  top:23%;
+  left:39%;
+  top:25%;
   box-shadow: 6px 6px rgb(128,128,128,0.5);
 }
 
@@ -313,7 +311,9 @@ padding-top:2%;
 .merch{
   padding-top:2%;
   background-color: #99DDCC;
-}
+  display:flex;
+  flex-direction: column;
+  }
 
 .merch p{
   text-align: center;}
@@ -351,7 +351,9 @@ padding-top:2%;
 .merchs1 a:hover{
  color:white;
 }
-
+.merchs1 a:link{
+  text-decoration:none;
+}
 #merchs2{
   
   font-family:'Cabin',Arial, Helvetica, sans-serif;
@@ -361,8 +363,9 @@ padding-top:2%;
   height: 70px;  
   background-color:#3D56B2 ;
   border-radius: 10px;
-  margin-left:37%;
+  
   margin-bottom: 5%;
+  align-self: center;
   
 }
 
@@ -385,12 +388,19 @@ padding-top:2%;
   .contact{
   background-color: #FEE440;
   flex-basis:45%;
-  padding-left:4%;}
+  padding-left:4%;
+  padding-right:2%;}
   
-  
+  .contact a:link{
+    font-family: 'Sniglet', Arial, Helvetica, sans-serif;
+    color:#000D6B;
+    text-decoration: none;
+    font-size:30px;
+  }
   
   .form{
   padding-left:4%;
+  
   }
   
   button{
@@ -400,7 +410,110 @@ padding-top:2%;
 
   /* media queries*/
 
-@media (max-width:576px){
+
+
+@media (max-width:992px){
+  .page1 a:link{
+    font-size:25px;
+   
+  }
+
+  .page2 a:link{
+    font-size:25px;
+  }
+  .page2{
+    margin-left: 0%;
+  }
+
+  .page3 a:link{
+    font-size:25px;
+  }
+
+  .intro{
+   
+   font-size:30px;
+  }
+
+  .confetti1{
+    top:60%;
+  }
+
+  .confetti2{
+    top:60%;
+  }
+
+  .sentence{
+    font-size:20px;
+    padding-left:2%;
+    padding-right: 2%;
+  }
+
+  .how2play-title{
+    font-size:30px;
+  }
+  .flex-item video{
+    width: 300px;
+    height:200px;
+  }
+  .flex-item{
+    font-size:15px;
+   margin-left:20px;
+   width:450px;
+   height:350px;
+  }
+
+  .screen4{
+    width:80%;
+  }
+
+  .screen5{
+    width:80%;
+  }
+
+  .downloadd p{
+    font-size:38px;
+    margin-right: 0%;
+  }
+
+  .downloadd{
+    margin-right:0%;
+  }
+
+  .downloadd img{
+    padding-top:4%;
+    
+    
+  }
+  .apple{
+    top:25%;
+  }
+
+  .google{
+    top:25%;
+  }
+
+  .merchs1 a{
+    font-size: 38px;
+  
+  }
+
+  .footer{
+    font-size:20px;
+  }
+
+  .contact a:link{
+    font-size:20px;
+  }
+
+  
+
+
+
+
+}
+
+@media (max-width:576px) {
+  
   /* media query for nav link */
   .page1 a:link{
     font-size:15px;
@@ -468,6 +581,11 @@ padding-top:2%;
     width:70%;
   }
 
+  .screen5{
+    width: 70%;
+  }
+  
+  
   .downloadd p{
     font-size:25px;
   }
@@ -479,14 +597,18 @@ padding-top:2%;
   
   }
   .apple{
-    top:18%;
-    left:50%;
+    width:20%;
+    top:26%;
+    left:55%;
     box-shadow: 3px 3px rgb(128,128,128,0.5);
+    margin-left:2%;
       }
   .google{
-    top:25%;
+    width:20%;
+    top:36%;
     box-shadow: 3px 3px rgb(128,128,128,0.5);
-    left:50%;
+    left:57%;
+    
   }
   .downloadd{
     padding-bottom:8%;
@@ -496,17 +618,30 @@ padding-top:2%;
     flex-direction: column;
     align-content: center;
   }
+
+  .merchs1 a{
+    font-size: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
   
   #merchs2{
-    margin-left:20%;
+    
     font-size:10px;
     width: 200px;  
     height: 40px;  
-    border-radius: 10px
+    border-radius: 10px;
   }
   
+  .footer{
+    font-size:10px;
+  }
+  .contact a:link{
+    font-size:10px;
+  }
   
   .form input{
     width:70%;
   }
-}
+
+}                                                                   
