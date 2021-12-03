@@ -535,7 +535,6 @@ padding-bottom: 10%;
 
 @media (max-width:576px) {
   
-  /* media query for nav link */
   .page1 a:link{
     font-size:15px;
    

@@ -1,8 +1,8 @@
-
+/* to hide and show merch images on toggle of button */
 var x = 0
 
  function show(){
-    if(x%2 == 0){
+    if(x%2 == 0) /*so that it only shows on even clicks*/{
         document.getElementById('sneakpeak')
         .style.display = "flex";
 
@@ -13,7 +13,8 @@ var x = 0
 
     x++;
 };
-    
+
+/* to show thank you message after user submit email to be updated about game updates*/ 
 let btnSubmit = document.getElementsByClassName('btnSubmit');
 let msg = " ";
 
