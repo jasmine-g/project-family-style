@@ -278,7 +278,7 @@ padding-bottom: 10%;
 
 .download-item{margin-left:50px;}
 
-.downloadd p{
+.downloadd h1{
   font-size:50px;
   font-family: 'Sniglet',Arial, Helvetica, sans-serif;
   color:#1E5128;
@@ -330,7 +330,7 @@ padding-bottom: 10%;
   flex-direction: column;
   }
 
-.merch p{
+.merch h1{
   text-align: center;}
 
 
@@ -411,6 +411,10 @@ padding-bottom: 10%;
     font-size:30px;
   }
   
+  .contact a:hover{
+    color:white;
+  }
+  
   .form{
   padding-left:4%;
   
@@ -418,6 +422,12 @@ padding-bottom: 10%;
   
   button{
   font-family: 'Cabin',Arial, Helvetica;
+  }
+
+  #ty{
+    padding-top:2%;
+    font-family: 'Sniglet',Arial, Helvetica;
+    color:#000D6B;
   }
 
 
@@ -481,7 +491,7 @@ padding-bottom: 10%;
     width:80%;
   }
 
-  .downloadd p{
+  .downloadd h1{
     font-size:38px;
     margin-right: 0%;
   }
@@ -597,7 +607,7 @@ padding-bottom: 10%;
   }
   
   
-  .downloadd p{
+  .downloadd h1{
     font-size:25px;
   }
   

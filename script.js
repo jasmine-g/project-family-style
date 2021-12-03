@@ -14,11 +14,17 @@ var x = 0
     x++;
 };
     
+let btnSubmit = document.getElementsByClassName('btnSubmit');
+let msg = " ";
 
+      btnSubmit[0].addEventListener('click', function(e){
 
+        if(document.getElementById('email').checkValidity() &&document.getElementById('email').value != ""){
+          e.preventDefault();
+          msg = 'Thank you for your support!';
+          document.getElementById('ty').innerHTML = msg;
+        }
+        
+      });
 
- 
-
-
-
-
+      
